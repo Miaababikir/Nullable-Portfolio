@@ -1,22 +1,7 @@
 <template>
     <div id="app" class="font-roboto">
-        <nav class="flex justify-between px-6 py-6 items-center text-xl">
-            <div class="flex items-center">
-                <svg class="fill-current text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                     width="30" height="30">
-                    <path class="heroicon-ui"
-                          d="M20.59 12l-3.3-3.3a1 1 0 1 1 1.42-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.42-1.4l3.3-3.3zM3.4 12l3.3 3.3a1 1 0 0 1-1.42 1.4l-4-4a1 1 0 0 1 0-1.4l4-4a1 1 0 0 1 1.42 1.4L3.4 12zm7.56 8.24a1 1 0 0 1-1.94-.48l4-16a1 1 0 1 1 1.94.48l-4 16z"/>
-                </svg>
-                <span class="ml-1">Null<span class="text-purple-600">able</span></span>
-            </div>
-            <div>
-                <svg class="fill-current text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                     width="24" height="24">
-                    <path class="heroicon-ui"
-                          d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
-                </svg>
-            </div>
-        </nav>
+
+        <navbar></navbar>
 
 
         <div class="pt-16">
