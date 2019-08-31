@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="flex flex-col px-6 py-6 text-xl" :class="{'border-b border-gray-100 shadow': isOpen }">
+        <nav class="flex flex-col px-8 py-6 container text-xl md:px-0 md:mx-auto md:flex-row" :class="{'border-b border-gray-100 shadow': isOpen }">
             <div class="flex justify-between items-center w-full">
                 <div class="flex items-center">
                     <svg class="fill-current text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -10,7 +10,7 @@
                     </svg>
                     <span class="ml-1">Null<span class="text-purple-600">able</span></span>
                 </div>
-                <button @click="toggle">
+                <button class="md:hidden" @click="toggle">
                     <svg class="fill-current text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                          width="24" height="24">
                         <path v-if="!isOpen" fill-rule="evenodd"
@@ -20,11 +20,11 @@
                 </button>
             </div>
 
-            <div class="flex flex-col items-center mt-6" v-if="isOpen">
+            <div class="flex flex-col items-center mt-6 md:flex-row md:mt-0" :class="{'visible': isOpen, 'hidden md:flex': !isOpen}">
                 <div>
                     <a class="text-gray-600 font-light" href="#">Home</a>
                 </div>
-                <div class="mt-2">
+                <div class="mt-2 md:mt-0 md:ml-4">
                     <a class="text-gray-600 font-light" href="#">Projects</a>
                 </div>
             </div>

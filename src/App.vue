@@ -6,10 +6,10 @@
 
         <div class="pt-16">
             <div class="text-center px-6">
-                <h1 class="text-2xl font-semibold">Designer, Front-end Developer & Mentor</h1>
-                <p class="text-gray-600 mt-4">I design and code beautifully simple things, and i love what i do.</p>
+                <h1 class="text-3xl font-semibold md:text-5xl">Designer, Front-end Developer & Mentor</h1>
+                <p class="text-gray-600 mt-4 md:text-2xl">I design and code beautifully simple things, and i love what i do.</p>
                 <div class="flex flex-col items-center mt-12">
-                    <svg class="w-32 h-32" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    <svg class="w-32 h-32 md:w-48 md:h-48" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 188.148 188.148" style="enable-background:new 0 0 188.148 188.148;"
                          xml:space="preserve">
@@ -203,23 +203,24 @@
                         <g>
 </g>
 </svg>
-                    <img class="mt-8" :src="require('./assets/images/hero.png')" alt="hero">
+                    <img class="mt-8 md:w-2/4 md:mt-24" :src="require('./assets/images/hero.png')" alt="hero">
                 </div>
             </div>
         </div>
 
-        <div class="px-8  pt-8 pb-64 bg-purple-600 text-center">
-            <h2 class="text-white font-semibold text-xl">Hi, I'm John Doe. Nice to meet you.</h2>
-            <p class="text-gray-300 text-lg mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam
-                consequatur consequuntur cum dolor ducimus earum esse libero nemo neque perferendis perspiciatis porro
-                qui, quidem recusandae reiciendis saepe, unde velit! Aperiam blanditiis, consequuntur dolore ea earum
-                explicabo, inventore iusto mollitia non obcaecati possimus qui quia quos saepe sunt tempore
-                voluptatem!</p>
+        <div class="px-8 pt-8 pb-64 bg-purple-600 text-center md:pt-24">
+            <div class="container md:mx-auto md:px-48">
+                <h2 class="text-white font-semibold text-xl md:text-3xl">Hi, I'm John Doe. Nice to meet you.</h2>
+                <p class="text-gray-300 text-lg mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam
+                    consequatur consequuntur cum dolor ducimus earum esse libero nemo neque perferendis perspiciatis porro
+                    qui, quidem recusandae reiciendis saepe, unde velit! Aperiam blanditiis, consequuntur dolore ea earum
+                    explicabo.</p>
+            </div>
         </div>
 
 
-        <div class="px-8 -mt-32">
-            <div class="bg-white pt-16 pb-8 px-4 border border-gray-200 shadow rounded-t-lg">
+        <div class="px-8 -mt-32 container md:mx-auto md:px-0 md:flex">
+            <div class="bg-white pt-16 pb-8 px-4 border border-gray-200 shadow rounded-t-lg md:w-1/3 md:rounded-t-none md:rounded-l-lg md:px-8">
                 <div class="flex flex-col items-center text-center">
                     <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><title>
                         UX/UI</title>
@@ -246,7 +247,7 @@
                 </div>
             </div>
 
-            <div class="bg-white pt-16 pb-8 px-4 border border-gray-200 shadow">
+            <div class="bg-white pt-16 pb-8 px-4 border border-gray-200 shadow md:w-1/3 md:px-8">
                 <div class="flex flex-col items-center text-center">
                     <svg width="50" height="48" viewBox="0 0 50 48" xmlns="http://www.w3.org/2000/svg"><title>FRONT
                         END</title>
@@ -273,7 +274,7 @@
                 </div>
             </div>
 
-            <div class="bg-white pt-16 pb-8 px-4 border border-gray-200 rounded-b-lg shadow">
+            <div class="bg-white pt-16 pb-8 px-4 border border-gray-200 rounded-b-lg shadow md:w-1/3 md:rounded-b-none md:rounded-br-lg md:rounded-r-lg md:px-8">
                 <div class="flex flex-col items-center text-center">
                     <svg width="40" height="48" viewBox="0 0 40 48" xmlns="http://www.w3.org/2000/svg"><title>
                         BOOK</title>
@@ -301,105 +302,117 @@
             </div>
         </div>
 
-        <div class="px-8  pt-8">
+        <div class="px-8 pt-8 container md:mx-auto md:px-0 md:mt-32">
             <div class="text-center">
-                <h2 class="text-2xl font-bold">My Recent Work</h2>
+                <h2 class="text-2xl font-bold md:text-3xl">My Recent Work</h2>
                 <p class="text-gray-600 mt-2 text-lg font-light">Here are few recent design projects. Want to see more?
                     <a href="#" class="text-purple-600 font-bold">Email Me</a></p>
             </div>
 
-            <div class="mt-8 text-center">
-                <div>
+            <div class="mt-8 text-center md:flex md:flex-wrap md:mt-16">
+                <div class="md:w-1/3 md:px-3 md:py-3">
                     <figure class="rounded-lg relative portfolio-card overflow-hidden">
                         <img class="rounded-lg" :src="require('./assets/images/portfolio1.png')" alt="portfolio">
                         <figcaption
-                                class="bg-gray-800 text-center absolute top-0 h-full rounded-lg px-6 pt-6 opacity-0">
-                            <h2 class="text-gray-200 text-lg mb-5">Blockchain pioneers bringing transparency, trust, and
-                                security to supply.</h2>
-                            <a href="#"
-                               class="text-gray-200 border-2 border-purple-600 px-4 py-2 rounded-full hover:bg-purple-600">
-                                Visit Website<span class="font-extrabold ml-2">></span>
-                            </a>
+                                class="bg-gray-800 text-center absolute top-0 h-full rounded-lg px-6 pt-6 opacity-0 md:pt-12">
+                            <div class="">
+                                <h2 class="text-gray-200 text-lg mb-5 md:text-2xl">Blockchain pioneers bringing transparency, trust, and
+                                    security to supply.</h2>
+                                <a href="#"
+                                   class="text-gray-200 border-2 border-purple-600 px-4 py-2 rounded-full hover:bg-purple-600">
+                                    Visit Website<span class="font-extrabold ml-2">></span>
+                                </a>
+                            </div>
                         </figcaption>
                     </figure>
                 </div>
 
-                <div class="mt-6">
+                <div class="mt-6 md:w-1/3 md:mt-0 md:px-3 md:py-3">
                     <figure class="rounded-lg relative portfolio-card overflow-hidden">
                         <img class="rounded-lg" :src="require('./assets/images/portfolio2.png')" alt="portfolio">
                         <figcaption
-                                class="bg-gray-800 text-center absolute top-0 h-full rounded-lg px-6 pt-6 opacity-0">
-                            <h2 class="text-gray-200 text-lg mb-5">Blockchain pioneers bringing transparency, trust, and
-                                security to supply.</h2>
-                            <a href="#"
-                               class="text-gray-200 border-2 border-purple-600 px-4 py-2 rounded-full hover:bg-purple-600">
-                                Visit Website<span class="font-extrabold ml-2">></span>
-                            </a>
+                                class="bg-gray-800 text-center absolute top-0 h-full rounded-lg px-6 pt-6 opacity-0 md:pt-12">
+                            <div class="">
+                                <h2 class="text-gray-200 text-lg mb-5 md:text-2xl">Blockchain pioneers bringing transparency, trust, and
+                                    security to supply.</h2>
+                                <a href="#"
+                                   class="text-gray-200 border-2 border-purple-600 px-4 py-2 rounded-full hover:bg-purple-600">
+                                    Visit Website<span class="font-extrabold ml-2">></span>
+                                </a>
+                            </div>
                         </figcaption>
                     </figure>
                 </div>
 
-                <div class="mt-6">
+                <div class="mt-6 md:w-1/3 md:mt-0 md:px-3 md:py-3">
                     <figure class="rounded-lg relative portfolio-card overflow-hidden">
                         <img class="rounded-lg" :src="require('./assets/images/portfolio3.png')" alt="portfolio">
                         <figcaption
-                                class="bg-gray-800 text-center absolute top-0 h-full rounded-lg px-6 pt-6 opacity-0">
-                            <h2 class="text-gray-200 text-lg mb-5">Blockchain pioneers bringing transparency, trust, and
-                                security to supply.</h2>
-                            <a href="#"
-                               class="text-gray-200 border-2 border-purple-600 px-4 py-2 rounded-full hover:bg-purple-600">
-                                Visit Website<span class="font-extrabold ml-2">></span>
-                            </a>
+                                class="bg-gray-800 text-center absolute top-0 h-full rounded-lg px-6 pt-6 opacity-0 md:pt-12">
+                            <div class="">
+                                <h2 class="text-gray-200 text-lg mb-5 md:text-2xl">Blockchain pioneers bringing transparency, trust, and
+                                    security to supply.</h2>
+                                <a href="#"
+                                   class="text-gray-200 border-2 border-purple-600 px-4 py-2 rounded-full hover:bg-purple-600">
+                                    Visit Website<span class="font-extrabold ml-2">></span>
+                                </a>
+                            </div>
                         </figcaption>
                     </figure>
                 </div>
 
-                <div class="mt-6">
+                <div class="mt-6 md:w-1/3 md:mt-0 md:px-3 md:py-3">
                     <figure class="rounded-lg relative portfolio-card overflow-hidden">
                         <img class="rounded-lg" :src="require('./assets/images/portfolio4.png')" alt="portfolio">
                         <figcaption
-                                class="bg-gray-800 text-center absolute top-0 h-full rounded-lg px-6 pt-6 opacity-0">
-                            <h2 class="text-gray-200 text-lg mb-5">Blockchain pioneers bringing transparency, trust, and
-                                security to supply.</h2>
-                            <a href="#"
-                               class="text-gray-200 border-2 border-purple-600 px-4 py-2 rounded-full hover:bg-purple-600">
-                                Visit Website<span class="font-extrabold ml-2">></span>
-                            </a>
+                                class="bg-gray-800 text-center absolute top-0 h-full rounded-lg px-6 pt-6 opacity-0 md:pt-12">
+                            <div class="">
+                                <h2 class="text-gray-200 text-lg mb-5 md:text-2xl">Blockchain pioneers bringing transparency, trust, and
+                                    security to supply.</h2>
+                                <a href="#"
+                                   class="text-gray-200 border-2 border-purple-600 px-4 py-2 rounded-full hover:bg-purple-600">
+                                    Visit Website<span class="font-extrabold ml-2">></span>
+                                </a>
+                            </div>
                         </figcaption>
                     </figure>
                 </div>
 
-                <div class="mt-6">
+                <div class="mt-6 md:w-1/3 md:mt-0 md:px-3 md:py-3">
                     <figure class="rounded-lg relative portfolio-card overflow-hidden">
                         <img class="rounded-lg" :src="require('./assets/images/portfolio5.png')" alt="portfolio">
                         <figcaption
-                                class="bg-gray-800 text-center absolute top-0 h-full rounded-lg px-6 pt-6 opacity-0">
-                            <h2 class="text-gray-200 text-lg mb-5">Blockchain pioneers bringing transparency, trust, and
-                                security to supply.</h2>
-                            <a href="#"
-                               class="text-gray-200 border-2 border-purple-600 px-4 py-2 rounded-full hover:bg-purple-600">
-                                Visit Website<span class="font-extrabold ml-2">></span>
-                            </a>
+                                class="bg-gray-800 text-center absolute top-0 h-full rounded-lg px-6 pt-6 opacity-0 md:pt-12">
+                            <div class="">
+                                <h2 class="text-gray-200 text-lg mb-5 md:text-2xl">Blockchain pioneers bringing transparency, trust, and
+                                    security to supply.</h2>
+                                <a href="#"
+                                   class="text-gray-200 border-2 border-purple-600 px-4 py-2 rounded-full hover:bg-purple-600">
+                                    Visit Website<span class="font-extrabold ml-2">></span>
+                                </a>
+                            </div>
                         </figcaption>
                     </figure>
                 </div>
 
-                <div class="mt-6">
+                <div class="mt-6 md:w-1/3 md:mt-0 md:px-3 md:py-3">
                     <figure class="rounded-lg relative portfolio-card overflow-hidden">
                         <img class="rounded-lg" :src="require('./assets/images/portfolio6.png')" alt="portfolio">
                         <figcaption
-                                class="bg-gray-800 text-center absolute top-0 h-full rounded-lg px-6 pt-6 opacity-0">
-                            <h2 class="text-gray-200 text-lg mb-5">Blockchain pioneers bringing transparency, trust, and
-                                security to supply.</h2>
-                            <a href="#"
-                               class="text-gray-200 border-2 border-purple-600 px-4 py-2 rounded-full hover:bg-purple-600">
-                                Visit Website<span class="font-extrabold ml-2">></span>
-                            </a>
+                                class="bg-gray-800 text-center absolute top-0 h-full rounded-lg px-6 pt-6 opacity-0 md:pt-12">
+                            <div class="">
+                                <h2 class="text-gray-200 text-lg mb-5 md:text-2xl">Blockchain pioneers bringing transparency, trust, and
+                                    security to supply.</h2>
+                                <a href="#"
+                                   class="text-gray-200 border-2 border-purple-600 px-4 py-2 rounded-full hover:bg-purple-600">
+                                    Visit Website<span class="font-extrabold ml-2">></span>
+                                </a>
+                            </div>
                         </figcaption>
                     </figure>
                 </div>
 
-                <div class="mt-16">
+                <div class="mt-16 md:mx-auto">
                     <a href="#"
                        class="border-2 text-purple-600 border-purple-600 px-8 py-3 rounded-full hover:bg-purple-600 hover:text-white">
                         <svg class="inline-block fill-current" role="img" viewBox="0 0 24 24"
@@ -412,14 +425,14 @@
             </div>
         </div>
 
-        <div class="px-8 pt-24">
+        <div class="px-8 pt-24 md:mt-32">
             <div class="text-center">
-                <h2 class="text-2xl font-bold">I haven't met you, and this is crazy..</h2>
+                <h2 class="text-2xl font-bold md:text-3xl">I haven't met you, and this is crazy..</h2>
                 <p class="text-gray-600 mt-4 text-lg font-light px-6">But if you need a programmer then email Me
                     maybe</p>
             </div>
 
-            <div class="mt-8 mb-20">
+            <div class="mt-8 mb-20 mx-auto md:w-2/4">
                 <svg viewBox="0 0 1096 574.74">
                     <defs>
                         <linearGradient id="eb6c86d6-45fa-49e0-9a60-1b0612516196" x1="819.07" y1="732.58" x2="819.07"
@@ -802,11 +815,11 @@
 
         <div class="bg-purple-600 px-8">
 
-            <div class="py-6">
+            <div class="py-6 container md:mx-auto">
                 <div class="bg-gray-800 rounded-lg -mt-20">
-                    <div class="text-center py-8 px-4">
-                        <h2 class="text-white text-2xl font-bold">Start a project</h2>
-                        <p class="text-gray-200 mt-4 mb-8 font-light px-6">Interested in working together? We should
+                    <div class="text-center py-8 px-4 md:flex md:items-center md:justify-between md:px-16">
+                        <h2 class="text-white text-2xl font-bold md:text-3xl">Start a project</h2>
+                        <p class="text-gray-200 mt-4 mb-8 font-light px-6 md:mt-0 md:mb-0 md:text-lg">Interested in working together? We should
                             queue up a chat. I'll buy the coffee.</p>
                         <a href="#"
                            class="text-gray-200 text-xl border-2 border-purple-600 px-8 py-3 rounded-full hover:bg-purple-600">
