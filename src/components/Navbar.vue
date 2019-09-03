@@ -22,10 +22,13 @@
 
             <div class="flex flex-col items-center mt-6 md:flex-row md:mt-0" :class="{'visible': isOpen, 'hidden md:flex': !isOpen}">
                 <div>
-                    <a class="text-gray-600 font-light" href="#">Home</a>
+                    <a class="text-gray-600 font-light" href="#">{{ $t('nav.item1') }}</a>
                 </div>
                 <div class="mt-2 md:mt-0 md:ml-4">
-                    <a class="text-gray-600 font-light" href="#">Projects</a>
+                    <a class="text-gray-600 font-light" href="#">{{ $t('nav.item2')}}</a>
+                </div>
+                <div class="mt-2 md:mt-0 md:ml-4">
+                    <language-switcher/>
                 </div>
             </div>
         </nav>
@@ -33,7 +36,11 @@
 </template>
 
 <script>
+
+    import LanguageSwitcher from "./LanguageSwitcher";
+
     export default {
+        components: { LanguageSwitcher },
         data() {
             return {
                 isOpen: false

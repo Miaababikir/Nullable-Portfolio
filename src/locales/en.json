@@ -1,0 +1,15 @@
+{
+  "message": "hello i18n !!",
+  "nav": {
+    "item1": "Home",
+    "item2": "Projects",
+    "dropdown": {
+      "item1": "English",
+      "item2": "Arabic"
+    }
+  },
+  "header": {
+    "title": "Designer, Front-end Developer & Mentor",
+    "body": "I design and code beautifully simple things, and i love what i do."
+  }
+}
