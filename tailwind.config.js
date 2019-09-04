@@ -3,6 +3,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 'roboto': ['Roboto'],
+                'droid-arabic': ['DroidArabicKufiRegular'],
             },
         }
     },

@@ -8,7 +8,7 @@
                         <path class="heroicon-ui"
                               d="M20.59 12l-3.3-3.3a1 1 0 1 1 1.42-1.4l4 4a1 1 0 0 1 0 1.4l-4 4a1 1 0 0 1-1.42-1.4l3.3-3.3zM3.4 12l3.3 3.3a1 1 0 0 1-1.42 1.4l-4-4a1 1 0 0 1 0-1.4l4-4a1 1 0 0 1 1.42 1.4L3.4 12zm7.56 8.24a1 1 0 0 1-1.94-.48l4-16a1 1 0 1 1 1.94.48l-4 16z"/>
                     </svg>
-                    <span class="ml-1">Null<span class="text-purple-600">able</span></span>
+                    <span class="mx-2">Null<span class="text-purple-600">able</span></span>
                 </div>
                 <button class="md:hidden" @click="toggle">
                     <svg class="fill-current text-purple-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -24,10 +24,10 @@
                 <div>
                     <a class="text-gray-600 font-light" href="#">{{ $t('nav.item1') }}</a>
                 </div>
-                <div class="mt-2 md:mt-0 md:ml-4">
+                <div class="mt-2 md:mt-0 md:mx-2">
                     <a class="text-gray-600 font-light" href="#">{{ $t('nav.item2')}}</a>
                 </div>
-                <div class="mt-2 md:mt-0 md:ml-4">
+                <div class="mt-2 md:mt-0 md:mx-2">
                     <language-switcher/>
                 </div>
             </div>

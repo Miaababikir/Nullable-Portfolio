@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="font-roboto">
+    <div id="app" :class="{'font-roboto': this.$i18n.locale === 'en', 'font-droid-arabic': this.$i18n.locale === 'ar'}" :style="direction">
 
         <navbar></navbar>
 
@@ -9,6 +9,21 @@
 
     </div>
 </template>
+
+<script>
+    export default {
+        methods: {
+            checkLocal(local) {
+                return this.$i18n.locale === local;
+            },
+        },
+        computed: {
+            direction() {
+                return this.checkLocal('en')? { direction: 'ltr'} : { direction: 'rtl'};
+            }
+        }
+    }
+</script>
 
 <style lang="scss">
     @import "assets/app.css";

@@ -11,5 +11,29 @@
   "header": {
     "title": "Designer, Front-end Developer & Mentor",
     "body": "I design and code beautifully simple things, and i love what i do."
+  },
+  "skills-header": {
+    "title": "Hi, I'm John Doe. Nice to meet you.",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam consequatur consequuntur cum dolor ducimus earum esse libero nemo neque perferendis perspiciatis porro qui, quidem recusandae reiciendis saepe, unde velit! Aperiam blanditiis, consequuntur dolore ea earum explicabo."
+  },
+  "skills": {
+    "title": "Back-end",
+    "description": "I value simple content structure, clean design patterns, and thoughtful interactions.",
+    "subtitle": "Things I enjoy designing:",
+    "tools-subtitle": "Design Tools:"
+  },
+  "portfolio": {
+    "title": "My Recent Work",
+    "body": "Here are few recent design projects. Want to see more? <a href=\"#\" class=\"text-purple-600 font-bold\">Email Me</a>",
+    "project": {
+      "content": "Blockchain pioneers bringing transparency, trust, and security to supply.",
+      "button": "Visit Website"
+    },
+    "button": "See more on Github"
+  },
+  "start-project": {
+    "title": "Start a project",
+    "body": "Interested in working together? We should queue up a chat. I'll buy the coffee.",
+    "button": "Let's Do This"
   }
 }
