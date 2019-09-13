@@ -1,5 +1,5 @@
 <template>
-    <div id="app" :class="{'font-roboto': this.$i18n.locale === 'en', 'font-droid-arabic': this.$i18n.locale === 'ar'}" :style="direction">
+    <div id="app" :class="{'font-roboto': this.$i18n.locale === 'en', 'font-tajawal': this.$i18n.locale === 'ar'}" :style="direction">
 
         <navbar></navbar>
 
